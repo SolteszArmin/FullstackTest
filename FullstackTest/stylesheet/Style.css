@@ -1,0 +1,215 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+	font-family: "Roboto";
+}
+
+.nav__links{
+	list-style: none;
+
+}
+
+.nav__links li{
+	display: inline-block;
+	padding: 0px 10px;
+}
+
+.nav__links li a{
+	transition: all 0.3s ease 0s;
+	font-size: 14px;
+	color: #553483;
+	font-weight: bold;
+}
+
+.nav__links li a:hover{
+	color: #ec008c;
+}
+.nav__links li a.active{
+	color: #ec008c;
+}
+
+.bar li a{
+font-size: 16px;
+}
+
+.upper{
+	margin-top: 10px;
+	margin-bottom: 5px;
+    box-shadow: 0 2px 2px -2px rgba(236, 0, 140,.4);
+}
+.upper li a{
+	font-weight: normal;
+}
+.english{
+	padding-right: 25px;
+	
+    box-shadow: 2px 0 2px -2px rgba(236, 0, 140,.4);
+}
+
+.bar{
+	padding-left: 0px;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.bar li{
+	padding-right: 20px;
+	padding-left: 20px;
+}
+
+.nav_row{
+	padding-top: 10px;
+	padding-right: 150px;
+	padding-left: 150px;
+	margin-right: 0px;
+	margin-left: 0px;
+}
+.nav_row.bottom{
+
+	padding-top: 0px;
+	margin-bottom: 200px;
+    box-shadow: 0px 0px 3px rgba(236, 0, 140,.2), 0px 0px 3px rgba(236, 0, 140,.2);
+}
+
+.bottom li a{
+	font-weight: bold;
+}
+.bottom{
+
+    box-shadow: 2px 0 3px -2px rgba(236, 0, 140,.4);
+
+}
+.logo{
+	bottom: 6px;
+
+}
+.lower{
+	margin-right: 5px;
+}
+.icon.bottom{
+	margin-bottom: 3px;
+}
+#language {
+	transition: all 0.3s ease 0s;
+   border:0px;
+   outline:0px;
+	font-size: 14px;
+	color: #553483;
+   cursor: pointer;
+}
+#language:hover {
+  color: #ec008c;
+}
+#language option{
+	font-size: 14px;
+	color: #553483;
+}
+
+.login{
+	border-radius: 0px;
+}
+.login.card-header{
+	padding-top: 10px;
+	padding-bottom: 0px;
+	background-color: #ec008c;
+	border-radius: 0px;
+}
+.login.form-control{
+	height: 20%;
+}
+.login_text{
+	color:white;
+	font-size: 14px;
+	font-weight: bold;
+
+}
+.login_text{
+	margin-bottom: 0px;
+}
+.login.card-body{
+	background-color: #553483;
+}
+.login_text.btn{
+	font-size: 20px;
+	padding: 5px 50px 5px 50px;
+	border: solid 2px white; 
+	background-color: #ec008c;
+}
+.error{
+	margin-top: 50px;
+	font-size: 13px;
+	font-weight: bold;
+	color:#ec008c;
+}
+
+.ui-sortable{
+	list-style: none;
+	padding: 0px 0px;
+	margin: 0px 0px;
+}
+.ui-sortable li{
+	margin: 10px 0px;
+	padding: 8px 5px;
+	cursor: pointer;
+}
+
+.ui-sortable li span{
+	color: white;
+	font-weight: bold;
+}
+.right_list{
+	background-color: #ec008c;
+}
+.left_list{
+	background-color: #553483;
+}
+.grab_take{
+	border-radius: 0px;
+	background-color: #ededed;
+}
+.grab_take_button{
+	color: white;
+	border:none;
+	background-color: #ec008c;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 0px;
+	margin-top: 50px;
+	padding: 6px 60px;
+}
+.grab_take_button:hover{
+	color: white;
+
+	background-color: #e83e8c;
+}
+.grab_take_button:active{
+	color: white;
+	background-color: #e83e8c;
+}
+.my_footer{
+	padding-bottom: 20px;
+	position: fixed;
+	width: 100%;
+	bottom: 0;
+}
+
+.my_row{
+	padding-top: 10px;
+	padding-right: 150px;
+	padding-left: 150px;
+	margin-right: 0px;
+	margin-left: 0px;
+	font-size: 12px;
+}
+.my_row a{
+	padding-right:2px; 
+	padding-left: 5px;
+	color: #553483;
+}
+
+.right_border{
+	box-shadow: 2px 0 2px -2px rgba(85,52,131,1);
+}
+
+.my_body{
+	padding: 2px 10px;
+}
